@@ -1,8 +1,8 @@
 mapboxgl.accessToken = '<Your Mapbox Access Token>';
 var client = new MapboxClient(mapboxgl.accessToken);
     console.log(client);
-
-    var address = 'jaipuria mall indirapuram'
+    var input=prompt('Enter address');
+    var address = input;
     var test = client.geocodeForward(address, function(err, data, res) {
       // data is the geocoding result as parsed JSON
       // res is the http response, including: status, headers and entity properties

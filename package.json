@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@mapbox/mapbox-gl-geocoder": "^3.0.1",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
     "express": "^4.16.4",
     "mapbox-gl": "^0.52.0"
   }
